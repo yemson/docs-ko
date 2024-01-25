@@ -136,7 +136,7 @@ watch(
 | main            | role="main"          | 문서의 주요 또는 중심 컨텐츠                                                      |
 | footer          | role="contentinfo"   | 상위 문서에 대한 정보: 각주/저작권/개인정보 취급방침 링크                                     |
 | aside           | role="complementary" | 메인 컨텐츠를 보조하지만, 분리되어 있고, 그 내용 자체로 독립된 의미가 있음                           |
-| _Not available_ | role="search"        | 검색 기능을 구현하기 위해 결합된 모든 엘리먼트를 감싸는 컨테이너 엘리먼트                             |
+| search          | role="search"        | 이 섹션은 애플리케이션의 검색 기능을 포함하고 있습니다                                                         |
 | form            | role="form"          | 양식에 관련된 엘리먼트를 감싸고 있음                                                  |
 | section         | role="region"        | 관련성이 있고 사용자가 탐색하고 싶어할 것 같은 컨텐츠. 이것을 사용한 엘리먼트에는 반드시 `aria-label` 제공 필요 |
 
@@ -541,7 +541,7 @@ W3C의 WAI-ARIA는 동적 컨텐츠 및 고급 사용자 인터페이스 제어�
   - [ChromeVox](https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn?hl=en)
 - 확대/축소 도구
   - [MAGic](https://www.freedomscientific.com/products/software/magic/)
-  - [ZoomText](https://www.zoomtext.com/)
+  - [ZoomText](https://www.freedomscientific.com/products/software/zoomtext/)
   - [Magnifier](https://support.microsoft.com/en-us/help/11542/windows-use-magnifier-to-make-things-easier-to-see)
 
 ### 테스트 {#testing}
